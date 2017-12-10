@@ -52,12 +52,14 @@ textarea {
 
 content-band {
 width: 100%;
+padding: 1px;
 }
 
 live-area {
+  padding: 1px;
 }
 
-
+}
 .image-one {
   width: 100%;
   background-image: image(image-one.png);
@@ -69,9 +71,10 @@ h1 {
   padding-left:10%;
   padding-right: 10%;
   padding-bottom: 0;
-  margin: 0;
+  margin-top: -40%;
   weight: bold;
-  padding-top: 0;
+  color: white;
+  margin-bottom: 0;
 }
 @media only screen and (min-width: 1000px) {
   h1{
@@ -92,9 +95,10 @@ h2 {
   font-size: 18px;
   padding-left:10%;
   padding-right: 10%;
-  padding-top: 10px;
+  padding-top: 0px;
   margin: 0;
-  weight: 200;
+  weight: thin;
+  color: white;
 }
 @media only screen and (min-width: 1000px) {
   h2{
@@ -110,6 +114,110 @@ padding-left:20%;
 padding-right: 20%;
   }
 }
+
+h3 {
+  font-size: 18px;
+  padding-left:10%;
+  padding-right: 10%;
+  padding-top: 1em;
+  margin: 0;
+  weight: thin;
+  color: #f7931e;
+}
+@media only screen and (min-width: 1000px) {
+  h3{
+font-size: 20px;
+padding-left:15%;
+padding-right: 15%;
+  }
+}
+@media only screen and (min-width: 1250px) {
+  h3{
+font-size: 25px;
+padding-left:20%;
+padding-right: 20%;
+  }
+}
+
+h4 {
+  font-size: 35px;
+  padding-left:10%;
+  padding-right: 10%;
+  padding-top: 30%;
+  margin: 0;
+  color: black;
+  text-align: center;
+}
+@media only screen and (min-width: 1000px) {
+  h4{
+font-size: 45px;
+padding-left:15%;
+padding-right: 15%;
+  }
+}
+@media only screen and (min-width: 1250px) {
+  h4{
+font-size: 60px;
+padding-left:20%;
+padding-right: 20%;
+  }
+}
+
+p {
+  font-size: 18px;
+  padding-left:10%;
+  padding-right: 10%;
+  padding-top: 0px;
+  margin-top: 1em;
+  weight: thin;
+  color: gray;
+}
+@media only screen and (min-width: 1000px) {
+  p{
+font-size: 20px;
+padding-left:15%;
+padding-right: 15%;
+  }
+}
+@media only screen and (min-width: 1250px) {
+  p{
+font-size: 25px;
+padding-left:20%;
+padding-right: 20%;
+  }
+}
+
+h5 {
+  font-size: 18px;
+  padding-left:10%;
+  padding-right: 10%;
+  padding-top: 1em;
+  margin: 0;
+  weight: thin;
+  color: #f7931e;
+  text-align: center;
+}
+@media only screen and (min-width: 1000px) {
+  h5{
+font-size: 20px;
+padding-left:15%;
+padding-right: 15%;
+  }
+}
+@media only screen and (min-width: 1250px) {
+  h5{
+font-size: 25px;
+padding-left:20%;
+padding-right: 20%;
+  }
+}
+
+.image-two {
+  width: 100%;
+  background-image: image(image-one.png);
+  padding-top: 3em;
+}
+
 
 
 /* ==========================================================================
